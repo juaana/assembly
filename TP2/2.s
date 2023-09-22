@@ -1,0 +1,15 @@
+        ORG 1000h
+LETRA DB 01h
+MAX DB 9Fh 
+
+
+        ORG 2000h
+LOOP:CMP LETRA,9Fh
+      JZ FIN
+      MOV BX,OFFSET LETRA
+      MOV AL,1
+      INT 7
+      INC LETRA
+      JMP LOOP
+FIN: INT 0
+END

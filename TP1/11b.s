@@ -1,6 +1,6 @@
-//b) * Escriba la subrutina RESTO que calcule el resto de la división entre 2 números positivos. Dichos números deben
-//pasarse por valor desde el programa principal a la subrutina a través de registros. El resultado debe devolverse
-//también a través de un registro por referencia.
+;b) * Escriba la subrutina RESTO que calcule el resto de la división entre 2 números positivos. Dichos números deben
+;pasarse por valor desde el programa principal a la subrutina a través de registros. El resultado debe devolverse
+;también a través de un registro por referencia.
 
 ORG 1000H
 num1 DB 6H
