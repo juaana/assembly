@@ -1,10 +1,10 @@
+;2) Escribir un programa que muestre en pantalla todos los caracteres disponibles en el simulador VonSim, comenzando con
+;el caracter cuyo código es el número 01H.
         ORG 1000h
 LETRA DB 01h
-MAX DB 9Fh 
-
 
         ORG 2000h
-LOOP:CMP LETRA,9Fh
+LOOP:CMP LETRA,0FFh
       JZ FIN
       MOV BX,OFFSET LETRA
       MOV AL,1
